@@ -14,7 +14,6 @@ npm i -D vue-autolink
 
 ```javascript
 // locally
-// `l` is lowercase
 import autoLink from 'vue-autolink/autolink'
 new Vue({
   components: { autoLink }

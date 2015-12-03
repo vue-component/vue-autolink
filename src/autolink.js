@@ -48,7 +48,6 @@ export default {
       opts.linkAttr = this.linkAttr
       opts.imageAttr = this.imageAttr
       opts.safe = defaultFalse(this.safe)
-      console.log(opts)
       return autoLink(val, opts)
     }
   }
